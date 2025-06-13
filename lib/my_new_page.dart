@@ -15,7 +15,13 @@ class _MyHomePageState extends State<MyHomePage> {
         title: const Text("Weerawat App"),
       ),
       body: Center(
-        child: Text("Hello, Weerawat!"),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text("Hello, Weerawat!"),
+            Text("Welcome to the Flutter app!")
+          ],
+        ),
       ),
     );
   }
